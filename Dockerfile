@@ -1,0 +1,9 @@
+FROM docker.io/istio/citadel:1.3.4
+FROM docker.io/istio/galley:1.3.4
+FROM docker.io/istio/proxyv2:1.3.4
+FROM docker.io/istio/grafana:1.3.4
+FROM docker.io/istio/mixer:1.3.4
+FROM docker.io/istio/servicegraph:1.3.4
+FROM docker.io/istio/pilot:1.3.4
+FROM docker.io/istio/sidecar_injector:1.3.4
+FROM docker.io/istio/proxy_init:1.3.4
